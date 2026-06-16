@@ -12,7 +12,7 @@ app.use(express.json());
 app.get('/health', async (req, res) => {
   try {
     await pool.query('SELECT 1');
-    res.json({ status: 'ok', SXRXN: 'StockPro API', timestamp: new Date() });
+    res.json({ status: 'ok', SXRXN36: 'StockPro API', timestamp: new Date() });
   } catch (err) {
     res.status(503).json({ status: 'error', message: err.message });
   }
