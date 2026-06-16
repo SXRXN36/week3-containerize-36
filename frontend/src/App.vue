@@ -141,7 +141,7 @@ onMounted(fetchProducts)
       <div class="logo">
         <span class="logo-icon">📦</span>
         <div>
-          <div class="logo-name">StockPro</div>
+          <div class="logo-name">StockSXRXN</div>
           <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
         </div>
       </div>
