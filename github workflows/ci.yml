@@ -49,3 +49,7 @@ jobs:
       # ── Step 7: Docker smoke test ─────────────────────────────
       - name: Build Docker images (smoke test)
         run: docker compose build    # ทดสอบว่า Dockerfile ทั้งคู่ build ได้
+
+
+
+        
