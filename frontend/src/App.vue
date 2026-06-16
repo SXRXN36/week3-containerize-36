@@ -187,7 +187,7 @@ onMounted(fetchProducts)
       <!-- LOW STOCK ALERT -->
       <div class="alert-low" v-if="stats.lowStock > 0">
         🚨 มีสินค้า <strong>{{ stats.lowStock }} รายการ</strong>
-        ที่มีจำนวนสต็อกน้อยกว่า 10 ชิ้น — กรุณาตรวจสอบและเติมสต็อก
+        ที่มีจำนวนสต็อกน้อยกว่า 10 ชิ้น — กรุณาตรวจสอบและเติมสินค้าในสต็อก
       </div>
 
       <!-- TOOLBAR -->
