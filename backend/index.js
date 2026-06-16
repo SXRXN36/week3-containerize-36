@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-app.get('/health', async (req, res) => {
+app.get('/', async (req, res) => {
   try {
     await pool.query('SELECT 1');
     res.json({ status: 'ok', SXRXN36: 'StockPro API', timestamp: new Date() });

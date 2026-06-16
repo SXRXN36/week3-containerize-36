@@ -141,7 +141,7 @@ onMounted(fetchProducts)
       <div class="logo">
         <span class="logo-icon">📦</span>
         <div>
-          <div class="logo-name">StockPro</div>
+          <div class="logo-name">StockSXRXN</div>
           <div class="logo-sub">ระบบจัดการสินค้าคงคลัง</div>
         </div>
       </div>
@@ -163,7 +163,7 @@ onMounted(fetchProducts)
           <div class="stat-icon si-red">⚠️</div>
           <div class="stat-body">
             <div class="stat-val" style="color:#dc2626">{{ stats.lowStock }}</div>
-            <div class="stat-label">สต็อกใกล้หมด (<10)</div>
+            <div class="stat-label">ของใกล้หมดสต็อก (น้อยกว่า10)</div>
           </div>
         </div>
         <div class="stat-card">
@@ -187,7 +187,7 @@ onMounted(fetchProducts)
       <!-- LOW STOCK ALERT -->
       <div class="alert-low" v-if="stats.lowStock > 0">
         🚨 มีสินค้า <strong>{{ stats.lowStock }} รายการ</strong>
-        ที่มีจำนวนสต็อกน้อยกว่า 10 ชิ้น — กรุณาตรวจสอบและเติมสต็อก
+        ที่มีจำนวนสต็อกน้อยกว่า 10 ชิ้น — กรุณาตรวจสอบและเติมสินค้าในสต็อก
       </div>
 
       <!-- TOOLBAR -->
